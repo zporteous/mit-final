@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server of Zachs MIT final project",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "node mongo_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zporteous/mit-final.git"
+  },
+  "keywords": [
+    "MIT",
+    "xPro",
+    "Zach",
+    "Porteous"
+  ],
+  "author": "Zach Porteous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zporteous/mit-final/issues"
+  },
+  "homepage": "https://github.com/zporteous/mit-final#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.2"
+  }
+}
